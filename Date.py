@@ -71,31 +71,31 @@ print(x.strftime("%A"))
 #Directive	Description	                                                    Example
 	
 %a	        Weekday, short version	                                        Mon	
-%A	        Weekday, full version	                                        Monday	
-%w	        Weekday as a number 0-6, 0 is Sunday	                        5	
-%d      	Day of month 01-31	                                            15	
-%b      	Month name, short version	                                    April	
-%B	        Month name, full version	                                    April	
+%A	        Weekday, full version	                                           Monday	
+%w	        Weekday as a number 0-6, 0 is Sunday	                            5	
+%d      	  Day of month 01-31	                                              15	
+%b      	  Month name, short version	                                     April	
+%B	        Month name, full version	                                        April	
 %m	        Month as a number 01-12	                                        04	
-%y	        Year, short version, without century	                        19	
-%Y	        Year, full version	                                            2019	
+%y	        Year, short version, without century	                            19	
+%Y	        Year, full version	                                              2019	
 %H	        Hour 00-23	                                                    23	
 %I	        Hour 00-12	                                                    11	
-%p	        AM/PM	                                                        PM	
-%M	        Minute 00-59	                                                15	
-%S	        Second 00-59	                                                15	
-%f	        Microsecond 000000-999999	                                    548515	
+%p	        AM/PM	                                                          PM	
+%M	        Minute 00-59	                                                    15	
+%S	        Second 00-59	                                                    15	
+%f	        Microsecond 000000-999999	                                     548515	
 %z	        UTC offset	                                                    +0100	
-%Z	        Timezone	                                                    CST	
-%j	        Day number of year 001-366	                                    365	
+%Z	        Timezone	                                                       CST	
+%j	        Day number of year 001-366	                                     365	
 %U	        Week number of year, Sunday as the first day of week, 00-53	    52	
 %W	        Week number of year, Monday as the first day of week, 00-53	    52	
-%c	        Local version of date and time	                                Mon April 15 23:15:00 2019	
-%x	        Local version of date	                                        04/15/19	
-%X	        Local version of time	                                        23:15:15	
-%%	        A % character	                                                %	
-%G	        ISO 8601 year	                                                2019	
+%c	        Local version of date and time	                                  Mon April 15 23:15:00 2019	
+%x	        Local version of date	                                           04/15/19	
+%X	        Local version of time	                                           23:15:15	
+%%	        A % character	                                                 %	
+%G	        ISO 8601 year	                                                 2019	
 %u	        ISO 8601 weekday (1-7)	                                        5	
-%V	        ISO 8601 weeknumber (01-53)	                                    18
+%V	        ISO 8601 weeknumber (01-53)	                                     18
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
