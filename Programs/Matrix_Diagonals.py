@@ -1,11 +1,12 @@
 def diagonal(arr):
-    sum = 0
+    s1, s2 = 0, 0
+
     for i in range(len(arr)):
-        sum = sum + arr[i][i]
-    for j in range(len(arr)):
-        sum = sum - arr[j][len(arr)-1-j]
+        s1 = s1 + arr[i][i]
+        s2 = s2 + arr[i][len(arr)-1-i]
+
+    return abs(s1-s2)
     
-    return abs(sum)
 n = int(input("Enter the size of matrix: "))
 a = []
 for i in range(n):
